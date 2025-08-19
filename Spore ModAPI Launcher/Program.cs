@@ -48,7 +48,6 @@ namespace SporeModAPI_Launcher
 
             if (proceed)
             {
-                UpdateManager.CheckForUpdates();
                 Application.EnableVisualStyles();
                 LauncherSettings.Load();
 
